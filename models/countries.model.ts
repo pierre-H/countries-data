@@ -58,7 +58,7 @@ export interface ICountry {
     },
     dialling: {
         calling_code: string[],
-        national_prefix: string,
+        national_prefix: string | null,
         national_number_lengths: number[],
         national_destination_code_lengths: number[],
         international_prefix: string | number
