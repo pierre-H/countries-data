@@ -80,8 +80,8 @@ export interface ICountry {
         imf: number,
         ar5: string | number,
         address_format: string | null,
-        eu_member: boolean,
-        vat_rates: {
+        eu_member: boolean | null,
+        vat_rates: null | {
             standard: number,
             reduced: number[],
             super_reduced: number,
