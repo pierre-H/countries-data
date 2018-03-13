@@ -79,7 +79,7 @@ export interface ICountry {
         fao: number,
         imf: number,
         ar5: string | number,
-        address_format: string,
+        address_format: string | null,
         eu_member: boolean,
         vat_rates: {
             standard: number,
